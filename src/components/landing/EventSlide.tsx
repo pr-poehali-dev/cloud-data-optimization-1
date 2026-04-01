@@ -33,7 +33,7 @@ export const eventsData: EventData[] = [
     highlights: [
       { icon: <Music className="w-4 h-4" />, text: "Живой оркестр и песни военных лет" },
       { icon: <Flame className="w-4 h-4" />, text: "Торжественное факельное шествие" },
-      { icon: <Star className="w-4 h-4" />, text: "Праздничный салют в 22:00" },
+      { icon: <Star className="w-4 h-4" />, text: "Праздничный салют в 21:00" },
       { icon: <Users className="w-4 h-4" />, text: "Бесплатный вход для всех" },
     ],
     image:
@@ -57,7 +57,7 @@ export const eventsData: EventData[] = [
       { icon: <Sparkles className="w-4 h-4" />, text: "Грандиозный концерт под открытым небом" },
       { icon: <Flame className="w-4 h-4" />, text: "Праздничный торт и угощения" },
       { icon: <Star className="w-4 h-4" />, text: "Шоу фейерверков и дронов" },
-      { icon: <Users className="w-4 h-4" />, text: "Интерактивные зоны для детей" },
+      { icon: <Users className="w-4 h-4" />, text: "Бесплатный вход для всех" },
     ],
     image:
       "https://images.unsplash.com/photo-1513151233558-d860c5398176?w=900&q=85&auto=format&fit=crop",
@@ -81,7 +81,7 @@ export const eventsData: EventData[] = [
       { icon: <Star className="w-4 h-4" />, text: "Торжественное зажжение ёлки в 20:00" },
       { icon: <Music className="w-4 h-4" />, text: "Новогодний концерт и хоровод" },
       { icon: <Sparkles className="w-4 h-4" />, text: "Дед Мороз, Снегурочка, подарки" },
-      { icon: <Users className="w-4 h-4" />, text: "Ледяной каток и горячий глинтвейн" },
+      { icon: <Users className="w-4 h-4" />, text: "Бесплатный вход для всех" },
     ],
     image:
       "https://images.unsplash.com/photo-1543934638-bd2b2d36e84c?w=900&q=85&auto=format&fit=crop",
@@ -104,7 +104,7 @@ export const eventsData: EventData[] = [
       { icon: <Flame className="w-4 h-4" />, text: "Масштабный фейерверк в полночь" },
       { icon: <Music className="w-4 h-4" />, text: "Живые выступления до 00:00" },
       { icon: <Sparkles className="w-4 h-4" />, text: "Новогодний стол и угощения" },
-      { icon: <Users className="w-4 h-4" />, text: "Обратный отсчёт и шампанское" },
+      { icon: <Users className="w-4 h-4" />, text: "Бесплатный вход для всех" },
     ],
     image:
       "https://images.unsplash.com/photo-1467810563316-b5476525c0f9?w=900&q=85&auto=format&fit=crop",
