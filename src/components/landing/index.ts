@@ -1,5 +1,5 @@
 export { default as LandingPage } from './LandingPage'
-export { default as Section } from './Section'
+export { default as HeroSection } from './HeroSection'
+export { default as EventSlide } from './EventSlide'
 export { default as Layout } from './Layout'
 export { Squares } from './squares-background'
-export { sections } from './sections'
