@@ -16,7 +16,7 @@ const holidayPreviews = [
     id: "sep1",
     emoji: "🎂",
     label: "1 Сентября",
-    sublabel: "День Рождения",
+    sublabel: "День Рождения Директора",
     gradient: "from-orange-900/80 to-orange-600/40",
     border: "border-[#FF4D00]/40",
     glow: "shadow-orange-900/50",
