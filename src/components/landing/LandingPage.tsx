@@ -2,7 +2,13 @@ import { useEffect, useRef, useState } from 'react'
 import { motion, useScroll, useSpring } from 'framer-motion'
 import Section from './Section'
 import Layout from './Layout'
+import EventsSection from './EventsSection'
 import { sections } from './sections'
+
+// Индекс секции праздников (вставляется после последней стандартной секции)
+const EVENTS_SECTION_INDEX = sections.length
+
+const totalSections = sections.length + 1 // +1 для секции праздников
 
 export default function LandingPage() {
   const [activeSection, setActiveSection] = useState(0)
@@ -44,9 +50,9 @@ export default function LandingPage() {
   return (
     <Layout>
       <nav className="fixed top-0 right-0 h-screen flex flex-col justify-center z-30 p-4">
-        {sections.map((section, index) => (
+        {Array.from({ length: totalSections }).map((_, index) => (
           <button
-            key={section.id}
+            key={index}
             className={`w-3 h-3 rounded-full my-2 transition-all ${
               index === activeSection ? 'bg-white scale-150' : 'bg-gray-600'
             }`}
@@ -69,6 +75,7 @@ export default function LandingPage() {
             isActive={index === activeSection}
           />
         ))}
+        <EventsSection isActive={activeSection === EVENTS_SECTION_INDEX} />
       </div>
     </Layout>
   )

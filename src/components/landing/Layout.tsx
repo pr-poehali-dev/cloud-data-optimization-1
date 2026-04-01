@@ -17,10 +17,10 @@ export default function Layout({ children }: LayoutProps) {
           hoverFillColor="#1f1f1f"
         />
       </div>
-      {/* Логотип студии */}
+      {/* Логотип */}
       <div className="fixed top-0 left-0 z-30 p-6 md:p-8">
         <span className="text-white font-bold text-xl tracking-tight">
-          studio<span className="text-[#FF4D00]">.</span>
+          кремлевская набережная<span className="text-[#FF4D00]">.</span>
         </span>
       </div>
       <div className="relative z-20 h-full">
